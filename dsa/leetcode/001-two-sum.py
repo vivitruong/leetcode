@@ -31,3 +31,9 @@ class Solution:
                  return[ i, hash[complement]]
 
             hash[num] = i
+               # for i in range(len(nums)):
+        #     sec = target - nums[i]
+
+        #     for j in range(i+1, len(nums)):
+        #         if sec == nums[j]:
+        #             return [i,j]
