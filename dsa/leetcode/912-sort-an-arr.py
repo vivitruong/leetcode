@@ -17,3 +17,7 @@ class Solution:
                 else:
                     merged.push(r.pop(0))
                 return merged
+
+# sort an array
+            # given an array of intergers nums, sort the array in asecnding order and return it, You must solve the problem without using any
+            #buit in functions in 0(loginn) time complexity abnd with the smallest space complextgity posible
