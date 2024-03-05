@@ -7,3 +7,12 @@
 
 # Input: text = "leetcode"
 # Output: 0
+class Solution:
+    def maxNumberOfBalloons(self, text: str) -> int:
+        countText = Counter(text)
+        balloon = Counter("balloon")
+
+        res = len(text) #or float("int")
+        for c in balloon:
+            res = min(res, countText[c] // balloon[c])
+        return res
