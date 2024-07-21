@@ -20,7 +20,7 @@
 # Output: 4
 # Explanation: 4 boats (3), (3), (4), (5)
 class Solution(object):
-    def numRescueBoats(self, people: list[int], limit: int) -> int:
+    def numRescueBoats(self, people, limit) -> int:
         people.sort()
         right = len(people) - 1
         left = res = 0
