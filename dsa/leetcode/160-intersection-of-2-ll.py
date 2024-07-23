@@ -25,3 +25,14 @@ class Solution:
             l1 = l1.next if l1 else headB
             l2 = l2.next if l2 else headA
         return l1
+#javascript:
+#     var getIntersectionNode = function (headA, headB) {
+#     let a = headA;
+#     let b = headB;
+#     while (a !== b) {
+#         a = a === null ? headB : a.next;
+#         b = b === null ? headA : b.next;
+#     }
+
+#     return a;
+# };
