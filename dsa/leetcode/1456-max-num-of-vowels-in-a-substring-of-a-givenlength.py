@@ -90,7 +90,6 @@ class Solution:
 # so, the problem says "Given a string s and an integer k, return the maximum number of vowel letters in any substring of s with length k."
 
 # to find the solution we need to determinate:
-
 # the length of the string
 # which letter is a vowel
 # the length of our window
@@ -117,3 +116,5 @@ class Solution:
 # if the start value is a vowels subtract one for keep the track of the window
 # increments the start variable
 # return the maximun value store in maxSum.
+
+#add explantion
