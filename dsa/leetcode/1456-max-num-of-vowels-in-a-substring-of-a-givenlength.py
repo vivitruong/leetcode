@@ -101,7 +101,6 @@ class Solution:
 
 #     const n = s.length;
 # create three variables for keep track of the window in the loop
-
 # Start: initiated in 0, When the window is equal to our variable "k" keep track of the value at its index which would be the value outside our window.
 
 # sum: initiated in 0, keep the number of vowel letters in any substring of s.
@@ -116,5 +115,3 @@ class Solution:
 # if the start value is a vowels subtract one for keep the track of the window
 # increments the start variable
 # return the maximun value store in maxSum.
-
-#add explantion
