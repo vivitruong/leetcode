@@ -83,3 +83,38 @@ class Solution:
 
 #     return maxSum;
 # };
+
+# Intuition
+# break the problem in a easy way for better understanding
+
+# Approach
+# so, the problem says "Given a string s and an integer k, return the maximum number of vowel letters in any substring of s with length k."
+
+# to find the solution we need to determinate:
+
+# the length of the string
+# which letter is a vowel
+# the length of our window
+# the maximum number of vowels in the window
+# we create a variable for store all the vowels for check later on if our current letters is a vowel
+
+#     const vowels = "aeiou";
+# take the length of the string "s" to iterate over
+
+#     const n = s.length;
+# create three variables for keep track of the window in the loop
+
+# Start: initiated in 0, When the window is equal to our variable "k" keep track of the value at its index which would be the value outside our window.
+
+# sum: initiated in 0, keep the number of vowel letters in any substring of s.
+# maxSum: initiated in 0, keep the maximun number of vowels letters in any substring
+
+#     let start = 0;
+#     let sum = 0;
+#     let maxSum = 0;
+# iterate over the s length and check
+# if the current index is a vowel, if that so add 1 to sum
+# if the current i - start + 1 is equal to "k", check for the maximum value in the window and store it in maxSum
+# if the start value is a vowels subtract one for keep the track of the window
+# increments the start variable
+# return the maximun value store in maxSum.
