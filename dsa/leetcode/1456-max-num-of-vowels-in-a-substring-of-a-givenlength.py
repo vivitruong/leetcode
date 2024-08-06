@@ -87,7 +87,6 @@ class Solution:
 # Intuition
 # break the problem in a easy way for better understanding
 
-# Approach
 # so, the problem says "Given a string s and an integer k, return the maximum number of vowel letters in any substring of s with length k."
 
 # to find the solution we need to determinate:
