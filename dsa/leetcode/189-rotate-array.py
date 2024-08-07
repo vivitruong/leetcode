@@ -19,8 +19,6 @@
 # rotate 2 steps to the right: [3,99,-1,-100]
 #medium
 
-
-View on Github
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
