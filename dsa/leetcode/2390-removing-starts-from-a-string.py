@@ -65,4 +65,17 @@ class Solution(object) :
 #         // Convert the StringBuilder to a string and return it as the output
 #         return sb.toString();
 #     }
-# }
+
+#Javascript
+
+# var removeStars = function(s) {
+#     if(!s.length) return '';
+
+#     const result = [];
+
+#     for(let char of s){
+#         if(char == '*') result.pop()
+#         else result.push(char)
+#     }
+#     return result.join('')
+# };
