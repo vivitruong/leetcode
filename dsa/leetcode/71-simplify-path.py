@@ -114,3 +114,29 @@ class Solution:
 # const isParentDirectory = (path) => (path === '..');
 
 # const isEmpty = ({ length }) => (0 === length);
+
+
+
+
+# View on Github
+# function simplifyPath(path: string): string {
+#     const stack: string[] = [];
+#     let cur = '';
+
+#     for (const c of path + '/') {
+#         if (c === '/') {
+#             if (cur === '..') {
+#                 if (stack.length > 0) {
+#                     stack.pop();
+#                 }
+#             } else if (cur != '' && cur != '.') {
+#                 stack.push(cur);
+#             }
+#             cur = '';
+#         } else {
+#             cur += c;
+#         }
+#     }
+
+#     return '/' + stack.join('/');
+# }
