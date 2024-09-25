@@ -25,3 +25,18 @@ class Solution:
             s[l],s[r] = s[r],s[l]
             l += 1
             r -= 1
+
+
+
+#  var reverseString = function(s) {
+#     let i = 0, j = s.length-1;
+
+#     while(i <= j) {
+#         let leftval = s[i], rightval = s[j];
+#         s[i] = rightval;
+#         s[j] = leftval;
+
+#         i++;
+#         j--;
+#     }
+# };
