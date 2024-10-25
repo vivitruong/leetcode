@@ -39,7 +39,6 @@
 
 
 
-View on Github
 class Solution:
     def getOrder(self, tasks: List[List[int]]) -> List[int]:
         tasks = sorted([(t[0], t[1], i) for i, t in enumerate(tasks)])
