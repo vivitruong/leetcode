@@ -17,7 +17,7 @@
 
 
 
-View on Github
+
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         goal = len(nums) - 1
